@@ -38,12 +38,15 @@ let date1 = new Date("2022-01-20");
 let date2 = new Date("2022-01-22");
 console.log((date2 - date1) / 1000 / 3600 / 24, "days");
 
-// Write a code to convert days to years, months and days (Notes: 1 year : 365 days, 1 month : 30 days).
+// ms => hari
+
+// Write a code to convert days to years, months and days
+//(Notes: 1 year : 365 days, 1 month : 30 days).
 // Example : 400 days → 1 year, 1 month, 5 days
 // Example: 366 days → 1 year, 0 month, 1 day
 
 let days = 400;
-let year = Math.floor(days / 365);
-let month = Math.floor((days % 365) / 30);
-let day = (days % 365) % 30;
+let year = Math.floor(days / 365); // 1 tahun
+let month = Math.floor((days % 365) / 30); // 1 bulan
+let day = (days % 365) % 30; // 5 hari
 console.log(days, "days →", year, "year", month, "month", day, "days");
