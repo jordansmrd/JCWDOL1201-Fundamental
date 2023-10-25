@@ -1,0 +1,56 @@
+github => tempat penyimpanan hasil coding kita (repository)
+1. backup 
+2. transfer 
+3. collab
+4. tracking history 
+
+//web app system mcd 
+a mengerjakan bagian produk menu 
+b mengerjakan transaksi dari cart
+a dan b collab => repository 
+
+
+repository => online(github) & local
+
+commit => persetujuan perubahan (local)
+push => mengirimkan hasil commit menuju repo online(github) (sync)
+fetch => ngecek repo online dan dibandingkan dengan local => show perubahan yang ada di online
+pull => menarik data online supaya sama dengan local
+fork => clone repository milik orang lain supaya masuk ke repo kita
+pull request => meminta origin repo untuk menarik perubahan (commit)
+branch => membuat cabang dari repository
+
+//repo youtube
+//production => cabang yang isinya sama dengan website yang sedang live (less bug & optimized)
+//development => cabang yang digunakan untuk mengerjakan fitur 
+//testing => 
+
+1. buat youtube shorts => A (development)
+2. buat youtube playlist => B (development)
+
+A => branch baru based on fitur yang dikerjakan ("A fitur shorts) => PR & merged => development
+B => branch baru based on fitur ("B youtube playlist") => pull request & merged => development
+C adalah tester 
+
+akan ada sebuah server yang melakukan deployment terhadap branch testing
+testing.youtube.com
+youtube.com
+PR & merged testing => production 
+maintenance sementara => update & bug 
+v1 v2 v3 
+
+
+
+// contoh orang buat codingan tentang buat video player untuk youtube dibuat oleh udin 
+ujang : codingan lu ada yang ngebug waktu gue check 
+udin : bug gmna? 
+ujang : videonya ga keputar kalau pakai file 3gp 
+udin : ooh ok gue jg udah ga cek repo ini lagi 
+ujang : gue perbaikin aja nanti lu tunggu hasil perbaikannya
+
+ujang fork kepada repo udin 
+changes => push => repo milik ujang 
+repo milik udin ttp ngebug 
+ujang kirim pull request ke repo udin 
+pull request adalah hasil commit 
+
