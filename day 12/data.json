@@ -1,0 +1,11 @@
+{   
+    "penduduk_konoha" : [{
+        "nama":"naruto",
+        "umur" : 18
+    }, {
+        "nama":"udin" ,
+        "umur":100    
+}
+    ]
+   
+}
